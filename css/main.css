@@ -486,6 +486,9 @@ img {
   opacity: 0.4;
 }
 
+.hero {
+  padding-bottom: 96px;
+}
 .hero__container {
   display: flex;
   align-items: center;
@@ -512,4 +515,39 @@ img {
 }
 .hero__img {
   margin-left: 24px;
+}
+
+.down {
+  padding-bottom: 80px;
+}
+.down__container {
+  display: flex;
+  align-items: center;
+}
+.down__box {
+  max-width: 690px;
+}
+.down__heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #192252;
+  margin: 0;
+  max-width: 690px;
+  padding-bottom: 24px;
+}
+.down__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  margin: 0;
+  padding-bottom: 16px;
+}
+.down__desc-2 {
+  padding-bottom: 32px;
+}
+.down__img {
+  margin-right: 126px;
 }/*# sourceMappingURL=main.css.map */

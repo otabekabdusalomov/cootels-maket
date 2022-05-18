@@ -1,31 +1,37 @@
-.hero{
-    padding-bottom: 96px;
+.down{
+    padding-bottom: 80px;
+    
     &__container{
         display: flex;
         align-items: center;
     }
     &__box{
-        max-width: 587px;
+        max-width: 690px;
     }
+    
     &__heading{
-        margin: 0;
         font-weight: 600;
-        font-size: 48px;
+        font-size: 36px;
         line-height: 150%;
-        letter-spacing: -0.01em;  
+        letter-spacing: -0.01em;
         color: #192252;
+        margin: 0;
+        max-width: 690px;
         padding-bottom: 24px;
+        
     }
     &__desc{
-        margin: 0;
         font-weight: 400;
         font-size: 18px;
         line-height: 150%;
         color: #848FAC;
+        margin: 0;
+        padding-bottom: 16px;
+    }
+    &__desc-2{
         padding-bottom: 32px;
     }
     &__img{
-        margin-left: 24px;
+        margin-right: 126px;
     }
-
 }
