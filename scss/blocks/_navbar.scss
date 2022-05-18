@@ -3,7 +3,7 @@
     margin-right: auto;
     display: flex;
     align-items: center;
-   
+    
     align-items: center;
     &__list{
         display: flex;
@@ -16,6 +16,10 @@
     &__link{
         text-decoration: none;
         transition: 0.3s;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #192252;
     }
     &__link:hover{
         opacity: 0.8;

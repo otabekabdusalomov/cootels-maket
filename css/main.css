@@ -461,6 +461,10 @@ img {
 .sitenav__link {
   text-decoration: none;
   transition: 0.3s;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #192252;
 }
 .sitenav__link:hover {
   opacity: 0.8;
@@ -556,9 +560,6 @@ img {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.collection__container {
-  max-width: 1094px;
-}
 .collection__list {
   display: flex;
   flex-direction: column;
@@ -578,6 +579,8 @@ img {
   flex-direction: row-reverse;
 }
 .collection__heading {
+  margin: 0;
+  padding: 0;
   font-weight: 600;
   font-size: 36px;
   line-height: 150%;
@@ -590,4 +593,84 @@ img {
   font-size: 18px;
   line-height: 150%;
   color: #848FAC;
+}
+
+.rooms {
+  padding-top: 80px;
+  padding-bottom: 88px;
+}
+.rooms__box {
+  max-width: 588px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rooms__heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #192252;
+  padding-bottom: 24px;
+}
+.rooms__desc {
+  margin: 0;
+  max-width: 588px;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #848FAC;
+  padding-bottom: 32px;
+}
+.rooms__button {
+  margin-left: 210px;
+}
+.rooms__list {
+  padding-top: 88px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.rooms__item + .rooms__item {
+  margin-left: 24px;
+}
+.rooms__img {
+  padding-bottom: 32px;
+  flex-shrink: 0;
+}
+.rooms__item-heading {
+  margin: 0;
+  max-width: 158px;
+  padding: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 16px;
+}
+.rooms__item-desc {
+  margin: 0;
+  padding: 0;
+  max-width: 384px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  padding-bottom: 32px;
+}
+.rooms__link {
+  text-decoration: none;
+  color: #424F7B;
+  transition: 0.3s;
+}
+.rooms__link:hover {
+  opacity: 0.8;
+}
+.rooms__link:active {
+  opacity: 0.4;
 }/*# sourceMappingURL=main.css.map */

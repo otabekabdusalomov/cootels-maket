@@ -1,0 +1,82 @@
+.rooms{
+    padding-top: 80px;
+    padding-bottom: 88px;
+   
+    &__box{
+        max-width: 588px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__heading{
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #192252;
+        padding-bottom: 24px;
+    }
+    &__desc{
+        margin: 0;
+        max-width: 588px;
+        padding: 0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;  
+        text-align: center;    
+        color: #848FAC;
+        padding-bottom: 32px;
+    }
+    &__button{
+        margin-left: 210px;
+    }
+    
+    &__list{
+        padding-top: 88px;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    &__item + &__item{
+        margin-left: 24px;
+    }
+    &__img{
+        padding-bottom: 32px;
+        flex-shrink: 0;
+    }
+    &__item-heading{
+        margin: 0;
+        max-width: 158px;
+        padding: 0;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        text-align: center;
+        color: #000000;
+        padding-bottom: 16px;
+    }
+    &__item-desc{
+        margin: 0;
+        padding: 0;
+        max-width: 384px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #848FAC;
+        padding-bottom: 32px;
+    }
+    &__link{
+        text-decoration: none;
+        color: #424F7B;
+        transition: 0.3s;
+    }
+    &__link:hover{
+        opacity: 0.8;
+    }
+    &__link:active{
+        opacity: 0.4;
+    }
+    
+}
