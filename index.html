@@ -4,15 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Scss-bem-starter</title>
+    <title>Cootels</title>
 </head>
 <body>
-    <!--HEAD-->
-    <header></header>
-    <!--MAIN-->
-    <main></main>
-    <!--FOOTER-->
-    <footer></footer>
+   <!-- HEADER -->
+   <header class="header">
+       <div class="container header__container">
+           <a class="header__logo" href="#">
+               <img class="header__logo-img" src="./images/cootels-logo.svg" alt="cootels-logo" width="123" height="39">
+           </a>
+
+           <nav class="sitenav">
+               <ul class="sitenav__list">
+                   <li class="sitenav__item">
+                       <a class="sitenav__link" href="#">Rooms</a>
+                   </li>
+
+                   <li class="sitenav__item">
+                       <a class="sitenav__link" href="#">Reservation</a>
+                   </li>
+
+                   <li class="sitenav__item">
+                       <a class="sitenav__link" href="#">Contacs</a>
+                   </li>
+                   
+               </ul>
+           </nav>
+           <button class="button header__button">Get Started</button>
+       </div>
+   </header>
+<!--MAIN-->
+<main class="main"></main>
+<!--FOOTER-->
+<footer></footer>
 </body>
 </html>

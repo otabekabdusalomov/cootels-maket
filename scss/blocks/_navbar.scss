@@ -1,1 +1,26 @@
-//BU YERDA SAYTIMIZNI NAVBAR QISMIGA ISHLOV BERILADI
+.sitenav{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+   
+    align-items: center;
+    &__list{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    &__item + &__item {
+        margin-left: 32px;
+    }
+    &__link{
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    &__link:hover{
+        opacity: 0.8;
+    }
+    &__link:active{
+        opacity: 0.4;
+    }
+}

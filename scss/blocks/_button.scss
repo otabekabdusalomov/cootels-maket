@@ -1,1 +1,17 @@
-//BU YERDA BUTTONLAR YASHAYDI
+.button {
+    padding: 14px 16px;
+    transition: 0.2s;
+    background: #0E1734;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    
+    &:hover{
+        opacity: 0.8;
+    }
+    &:active{
+        opacity: 0.4;
+    }
+}
