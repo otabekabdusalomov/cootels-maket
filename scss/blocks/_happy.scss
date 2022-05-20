@@ -1,0 +1,52 @@
+.happy{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+    &__box{
+        max-width: 793px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    &__heading{
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #192252;
+        padding-bottom: 62px;
+    }
+    &__img{
+        padding-bottom: 44px;
+    }
+    
+    &__desc{
+     
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #848FAC;
+    }
+    
+    &__kirana{
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: #192252;  
+    }
+    &__bottom{
+        padding-top: 40px;
+        padding-bottom: 24px;
+    }
+    
+}
